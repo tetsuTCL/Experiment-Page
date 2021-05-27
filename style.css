@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+p { 
+    color: #00ffaa;
+    text-indent: 1em; 
+    text-align: center;
+}
+p:hover { color: red;}
+p::before { content: "★";}
+p::after { content: "★";}
+
+
+h1,h2{ 
+    font-family: "Times New Roman", "MS PMincho";
+}
+
+.arial{
+    font-family: "Arial";
+}
+
+.new-roman{
+    font-family: "Times New Roman";
+}
+
+#mincho {
+    font-family: "MS PMincho";
+}
+
+.video-wrap {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-wrap > video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+  
